@@ -1,0 +1,23 @@
+" vim: filetype=help foldmethod=marker foldmarker=<<<,>>> modifiable noreadonly
+
+*myhelp*
+<LEADER> - Space bar
+
+CTRL+P - [Telescope] File fuzzy search
+CTRL+N - [Nvim-tree] File explorer
+<LEADER>fg - [Telescope] Live Grep
+
+LSP
+[d - prev err/warn
+]d - next err/warn
+<LEADER>q - open err/warn window
+K - Hover warn/err
+<LEADER>gd - show definition
+<LEADER>gi - show implementation
+<LEADER>gr - show references
+<LEADER>rn - rename
+<LEADER>ca - code action
+<LEADER>f - auto format
+
+NULL-LS
+<LEADER>gf - auto format with linter

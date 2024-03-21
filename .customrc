@@ -1,0 +1,21 @@
+# Aliases
+alias curl_json="curl -H \"Content-Type: application/json\""
+alias showtsv="column -t -s $'\t'"
+alias showcsv="column -t -s ';'"
+alias wget-page="wget \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --restrict-file-names=windows \
+     --domains website.org \
+     --no-parent"
+alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
+alias camera_off="sudo modprobe -r uvcvideo"
+alias tmux-1-2="tmux new-session \; split-window -h\; split-window -v \;"
+alias lc='colorls'
+alias la='colorls -lA --sd'
+
+# Key bindings
+bindkey '^ ' autosuggest-accept
