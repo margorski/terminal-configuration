@@ -7,6 +7,12 @@
 - p10k ohmyzsh theme
 - zsh-autosuggestions plugin
 - zsh-syntax-highlighting plugin
+- zsh tmux plugin 
+- thefuck (https://github.com/nvbn/thefuck)
+- duf (https://github.com/muesli/duf)
+- fd (https://github.com/sharkdp/fd)`
+- https://dbrgn.github.io/tealdeer/installing.html
+
 
 ## Files
 - .customrc - aliases and other custom config, add this to .zshrc

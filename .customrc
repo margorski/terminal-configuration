@@ -1,3 +1,6 @@
+# Paths
+export PATH="$PATH:/home/mariuszek/.local/bin"
+
 # Aliases
 alias curl_json="curl -H \"Content-Type: application/json\""
 alias showtsv="column -t -s $'\t'"
@@ -19,3 +22,6 @@ alias la='colorls -lA --sd'
 
 # Key bindings
 bindkey '^ ' autosuggest-accept
+
+# Other
+eval $(thefuck --alias)
