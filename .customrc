@@ -22,6 +22,3 @@ alias la='colorls -lA --sd'
 
 # Key bindings
 bindkey '^ ' autosuggest-accept
-
-# Other
-eval $(thefuck --alias)
